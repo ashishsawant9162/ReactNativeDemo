@@ -1,4 +1,4 @@
-package com.mynotes
+package com.nextgen.quotee
 
 import android.app.Application
 import com.facebook.react.PackageList

@@ -6,14 +6,14 @@
  */
 
 import React from 'react';
-import { NotesProvider } from './src/context/NotesContext';
-import { AppNavigator } from './src/navigation/AppNavigator';
+import {SafeAreaProvider} from 'react-native-safe-area-context';
+import HomeScreen from './src/screens/HomeScreen';
 
 export default function App() {
   return (
-    <NotesProvider>
-      <AppNavigator />
-    </NotesProvider>
+    <SafeAreaProvider>
+      <HomeScreen />
+    </SafeAreaProvider>
   );
 }
 
