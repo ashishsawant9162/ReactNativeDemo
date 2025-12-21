@@ -327,12 +327,12 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     marginTop: 24,
-    gap: 8,
   },
   swipeHintText: {
     fontSize: 12,
     color: '#999999',
     fontStyle: 'italic',
+    marginHorizontal: 8,
   },
   actionContainer: {
     flexDirection: 'row',
